@@ -4,16 +4,23 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
   <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
   <title>Document</title>
-  <script src='js/index.js'></script>
+  <script defer src='js/index.js'></script>
   <link rel='stylesheet' href='index.css'/>
 </head>
 <body>
   <div id='main'>
 
     <h2>GitHub Search</h2>
-
+    <br/>
+    <h4>Search by User</h4>
     <form id='github-form'>
       <input id='search' type='text' name='search'>
+      <input type='submit' name='submit'/>
+    </form>
+    <br/>
+    <h4>Search by Repo</h4>
+    <form id='repo-form'>
+      <input id='repo-search' type='text' name='reposearch'>
       <input type='submit' name='submit'/>
     </form>
 
